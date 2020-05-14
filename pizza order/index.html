@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Shop</title>
+    <style>
+        td {
+            width: 100px;
+            height: 25px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+    <table border="1">
+        <!--Row1-->
+        <tr>
+            <td colspan="2" align="center"> <b> Pizza Shop 2.0 </b> </td>
+        </tr>
+
+        <!--Row2-->
+        <tr>
+            <td> Name </td>
+            <td>        
+                <input type="text" id="name" name="name"><br>
+            </td>
+        </tr>
+
+        <!--Row3-->
+        <tr>
+            <td>Pizza Topping</td>
+            <td>
+                <input type="checkbox" id="box1" name="check" value="check1">
+                <label for="box1"> Supreme</label><br>
+                <input type="checkbox" id="box2" name="check" value="check2">
+                <label for="box1"> Vegetarian</label><br>
+                <input type="checkbox" id="box3" name="check" value="check3">
+                <label for="box1"> Hawaiian</label><br>
+            </td>
+        </tr>
+
+        <!--Row4-->
+        <tr>
+            <td>Pizza Sauce</td>
+            <td>
+                <select id="sauses">
+                    <option value="tomato">Tomato</option>
+                    <option value="cream">Cream</option>
+                    <option value="garlic">Garlic</option>
+                </select>
+            </td>
+        </tr>
+
+        <!--Row5-->
+        <tr>
+            <td> Optional Extras</td>
+            <td>
+                <input type="radio" id="male" name="Extras" value="Cheese">
+                <label for="male">Extra Cheese</label><br>
+                <input type="radio" id="female" name="Extras" value="nongluten">
+                <label for="female">Gluten Free Base</label><br>
+            </td>
+        </tr>
+
+        <!--Row6-->
+        <tr>
+            <td colspan="2">Delivery Instructions:
+                <textarea id="delivery" rows="5" cols="50">
+                </textarea>
+            </td>
+        </tr>
+
+        <!--Row7-->
+        <tr>
+            <td colspan="2">
+                <input type="submit" value="Send my order">
+            </td>
+        </tr>
+
+    </table>
+</form>
+</body>
+</html>
