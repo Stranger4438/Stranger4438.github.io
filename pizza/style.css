@@ -1,0 +1,11 @@
+td {
+    background-color: rgb(204, 255, 208);
+    width: 100px;
+    height: 25px;
+    
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
