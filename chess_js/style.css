@@ -1,0 +1,22 @@
+body {
+    padding: 50px 400px;
+    background-color: burlywood;
+}
+
+div {
+    float: left;
+    width: 65px;
+    height: 65px;
+}
+
+.first {
+    clear: left;
+}
+
+.black {
+    background-color: blue;
+}
+
+.white {
+    background-color: yellow;
+}
